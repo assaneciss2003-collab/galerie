@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - Restaurant Amadou Faye</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="gallerie.css">
+</head>
+<body>
+
+    <section class="gallery-panel" id="galerie">
+        <div class="section-heading section-heading--gallery">
+            <h2>Galerie</h2>
+        </div>
+
+        <div class="gallery-showcase">
+            <div class="gallery-grid" id="gallery-grid">
+                </div>
+        </div>
+
+        <div class="gallery-slider">
+            <button class="slider-arrow slider-arrow--gallery" type="button" data-gallery-direction="prev" aria-label="Précédent">
+                <span></span>
+            </button>
+            
+            <figure class="gallery-preview-frame">
+                <img id="gallery-preview" src="" alt="Aperçu">
+                <figcaption id="gallery-caption"></figcaption>
+            </figure>
+
+            <button class="slider-arrow slider-arrow--gallery" type="button" data-gallery-direction="next" aria-label="Suivant">
+                <span></span>
+            </button>
+        </div>
+    </section>
+
+    <script src="gallerie.js"></script>
+</body>
+</html>
